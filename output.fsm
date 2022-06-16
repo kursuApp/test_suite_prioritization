@@ -1,0 +1,13 @@
+START -- 1 / 0 -> state2
+START -- 0 / 1 -> state3
+state2 -- 0 / 1 -> state5
+state2 -- 1 / 0 -> state3
+state3 -- 0 / 0 -> state1
+state3 -- 1 / 0 -> state6
+state1 -- 1 / 1 -> START
+state1 -- 0 / 0 -> state3
+state5 -- 0 / 0 -> state3
+state6 -- 0 / 0 -> state4
+state6 -- 1 / 1 -> START
+state4 -- 0 / 0 -> START
+state4 -- 1 / 0 -> state6

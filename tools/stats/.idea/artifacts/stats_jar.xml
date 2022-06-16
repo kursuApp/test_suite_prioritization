@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="stats:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/stats_jar</output-path>
+    <root id="archive" name="stats.jar">
+      <element id="module-output" name="stats" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/commons-math-2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/junit.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/mathCollection.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/org.hamcrest.core_1.3.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

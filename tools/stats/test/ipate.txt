@@ -1,0 +1,12 @@
+# Ipate, 2010TCS
+
+S0 a 0 S0
+S0 b 1 S1 
+S1 a 1 S2
+S1 b 1 S1 
+S2 a 0 S3
+S2 b 1 S0 
+S3 a 1 S4
+S3 b 1 S3 
+S4 a 0 S0
+S4 b 1 S3 

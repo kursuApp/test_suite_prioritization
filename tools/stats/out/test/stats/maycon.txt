@@ -1,0 +1,20 @@
+#Maycon's FSM
+
+gameSelected ID GS gameSelected
+gameSelected PG PG Pong
+gameSelected BK BG Brickles
+Brickles ID BG Brickles
+Brickles PS PS Pause
+Pong ID PG Pong
+Pong PS PS Pause
+Pause ID PS Pause
+Pause SG SG Pause
+Pause SS SS Pause
+Pause CS CS Pause
+Pause RB RB Brickles
+Pause NB NB Brickles
+Pause LB LB Brickles
+Pause RP RP Pong
+Pause NP NP Pong
+Pause LP LP Pong
+Pause EX EX gameSelected

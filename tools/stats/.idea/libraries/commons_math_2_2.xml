@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="commons-math-2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/commons-math-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mathCollection.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/org.hamcrest.core_1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/libs/mathCollection.jar!/" />
+    </SOURCES>
+  </library>
+</component>

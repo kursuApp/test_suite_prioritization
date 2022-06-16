@@ -1,0 +1,16 @@
+#http://www.cbl.ncsu.edu:16080/benchmarks/LGSynth91/fsmexamples/dk27.kiss2
+
+START 0 00 state6
+START 1 00 state4
+state2 0 00 state5
+state3 0 00 state5
+state4 0 00 state6
+state5 0 10 START
+state6 0 01 START
+state7 0 00 state5
+state6 1 01 state2
+state5 1 10 state2
+state4 1 10 state6
+state7 1 10 state6
+state2 1 00 state3
+state3 1 00 state7

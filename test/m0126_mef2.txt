@@ -1,0 +1,17 @@
+SG -- ID / SG -> SG
+SG -- SB / BS -> SB
+SB -- ID / SB -> SB
+SG -- SP / PS -> SP
+SP -- ID / SP -> SP
+SB -- PL / GPL -> PL
+SP -- PL / GPL -> PL
+PL -- ID / PL -> PL
+PL -- PG / GPS -> PS
+PS -- ID / PS -> PS
+PS -- SVG / GSV -> PS
+PS -- SS / SS -> PS
+PS -- CS / SC -> PS
+PS -- RG / GR -> PL
+PS -- NG / GN -> PL
+PS -- LG / GL -> PL
+PS -- EX / GE -> SG

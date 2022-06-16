@@ -1,0 +1,10 @@
+# Figure 2.2 - FSM from Pio's dissertation
+
+s0 a 1 s3
+s0 b 1 s2 
+s1 a 1 s0
+s1 b 1 s1 
+s2 a 0 s0
+s2 b 0 s0 
+s3 a 1 s1
+s3 b 0 s0 

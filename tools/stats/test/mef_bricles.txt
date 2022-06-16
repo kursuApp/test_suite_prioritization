@@ -1,0 +1,10 @@
+GS -- ID / GS -> GS
+GS -- BK / SB -> BG
+BG -- ID / BG -> BG
+BG -- PB / PB -> PB
+PB -- ID / PB -> PB
+PB -- SGB / SGB -> PB
+PB -- RB / RB -> BG
+PB -- NB / NB -> BG
+PB -- LB / LB -> BG
+PB -- EX / GS -> GS

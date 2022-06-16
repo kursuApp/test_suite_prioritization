@@ -1,0 +1,10 @@
+#dorofeeva 2005 SEFM (Figure 1)
+
+S1 x 1 S3
+S1 y 0 S2
+S2 x 1 S2
+S2 y 1 S4
+S3 x 0 S2
+S3 y 0 S1
+S4 x 1 S3
+S4 y 0 S4

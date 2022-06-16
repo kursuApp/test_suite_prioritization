@@ -1,0 +1,6 @@
+#FSM for test 1
+
+s1 a 1 s2
+s1 b 0 s1
+s2 a 0 s2
+s2 b 0 s1
