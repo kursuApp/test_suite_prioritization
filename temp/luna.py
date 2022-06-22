@@ -17,7 +17,7 @@ def run():
             # graph, start_node = luna_util.create_graph_from_mutlu(file_path)
             graph, start_node = luna_util.create_graph_from_kiss2(file_path)
             # luna_util.create_mutlu_from_kiss2(graph, file_path)
-            test_suite = luna_util.run("example.fsm", algorithm)
+            test_suite = luna_util.run("../results/example.fsm", algorithm)
             test_suite = luna_util.get_test_suite(test_suite.stdout)
             # df = luna_util.create_dataframe_from_mutlu("example.fsm")
             # df = pd.get_dummies(df, columns=["source", "target", "input"])

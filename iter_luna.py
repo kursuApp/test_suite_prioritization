@@ -1,7 +1,7 @@
 
 def calculate_test_case_cost(centrality, test_suite):
     test_suite_cost = dict()
-    for index, test_case in enumerate(test_suite.values()):
+    for index, test_case in enumerate(test_suite):
         test_case_edges = dict()
         for edge in test_case:
             test_case_edges[edge] = centrality[edge]

@@ -60,6 +60,15 @@ def get_test_suite(test_suite):
     return test_cases
 
 
+def get_test_suite2(test_suite, input_size):
+    test_cases = []
+    for test_case in test_suite.splitlines():
+        test_case = test_case.decode('ascii')
+        tmp = [test_case[i:i + input_size] for i in range(0, len(test_case), input_size)]
+        test_cases.append(tmp)
+    return test_cases
+
+
 def create_fsm(state_size, input_, output_, file):
     transition_size = state_size * math.pow(2, input_) - 1
     subprocess.run(["tools/genstate.exe", "-i", str(input_), "-o", str(output_), "-t", str(transition_size), "-s",
