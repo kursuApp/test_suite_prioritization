@@ -60,7 +60,7 @@ def get_test_suite(test_suite):
     return test_cases
 
 
-def create_fsm(state_size=5, input_=1, output_=1, file='test.kiss2'):
+def create_fsm(state_size, input_, output_, file):
     transition_size = state_size * math.pow(2, input_) - 1
     subprocess.run(["tools/genstate.exe", "-i", str(input_), "-o", str(output_), "-t", str(transition_size), "-s",
                     str(state_size),
@@ -68,4 +68,4 @@ def create_fsm(state_size=5, input_=1, output_=1, file='test.kiss2'):
 
 
 def run(file, tool):
-    return subprocess.run(["java", "-jar", "tools/"+tool+".jar", file], capture_output=True)
+    return subprocess.run(["java", "-jar", "tools/" + tool + ".jar", file], capture_output=True)
